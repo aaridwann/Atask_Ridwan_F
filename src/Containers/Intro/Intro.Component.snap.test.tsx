@@ -5,11 +5,6 @@ import IntroComponent from "./Intro.Component";
 
 jest.mock("expo-local-authentication");
 
-// jest.mock("expo-local-authentication", () => ({
-//   supportedAuthenticationTypesAsync: jest.fn(),
-//   authenticateAsync: jest.fn(),
-// }));
-
 describe("Snap test", () => {
   const mockValue = {
     available: [0, 1, 2],

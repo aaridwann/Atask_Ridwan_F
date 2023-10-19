@@ -2,16 +2,12 @@ import React from "react";
 import { connect } from "react-redux";
 
 import TodoComponent from "./Todos.Component";
-import { PayloadNoteType, Props } from "./Todos.Types";
+import { Dispatch, PayloadNoteType, Props, State } from "./Todos.Types";
 import {
   ADD_NOTE,
   EDIT_NOTE,
   REMOVE_NOTE,
 } from "../../Redux/Slice/Notes/Notes.slice";
-type Dispatch = (reducer: any) => void;
-type State = {
-  notes: Array<any>;
-};
 
 const TodoContainers = (props: Props) => <TodoComponent {...props} />;
 

@@ -5,4 +5,4 @@ export interface Props {
   onDelete: VoidFunction;
   onEdit: VoidFunction;
   accessibilityLabel?: string;
-}
+};

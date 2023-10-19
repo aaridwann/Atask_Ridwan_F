@@ -6,7 +6,6 @@ import {
   Text,
   View,
   TouchableOpacity,
-  TextInput,
   KeyboardAvoidingView,
   Platform,
 } from "react-native";
@@ -15,7 +14,6 @@ import Constants from "../../Constants/Constants";
 import { IntroContainer } from "./Intro.Types";
 import Assets from "../../Assets/Assets";
 import styles from "./Intro.Component.styles";
-type VoidFunction = () => void;
 
 const {
   TypeBioMetrics: { FACE_RECOGNIZE, FINGER_PRINT },
@@ -56,22 +54,6 @@ const _renderSubTitle = () => (
   <Text style={{ marginVertical: 35, letterSpacing: 2, color: "white" }}>
     Welcome to
   </Text>
-);
-
-const _renderPasswordField = (onChange) => (
-  <TextInput
-    placeholder="Password"
-    onSubmitEditing={onChange}
-    placeholderTextColor={"white"}
-    style={{
-      textAlign: "center",
-      borderColor: "white",
-      width: "60%",
-      borderBottomWidth: 0.5,
-      padding: 5,
-      color: "white",
-    }}
-  />
 );
 
 const CheckHardware = () =>
@@ -126,9 +108,6 @@ const IntroComponent = (props: IntroContainer) => {
           {_renderIconWrapper(biometric.available, selectBiometricHandler)}
           {_renderTitle()}
           {_renderSubTitle()}
-          
-          {/** optional password custom */}
-          {/* {_renderPasswordField(passwordHandler)} */}
         </View>
       </KeyboardAvoidingView>
     </SafeAreaView>

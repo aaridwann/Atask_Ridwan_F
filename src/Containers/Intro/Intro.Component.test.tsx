@@ -1,5 +1,6 @@
 import React from "react";
-import { render, fireEvent, act, waitFor } from "@testing-library/react-native";
+import { render, fireEvent, waitFor } from "@testing-library/react-native";
+
 import IntroComponent from "./Intro.Component";
 import * as LocalAuthentication from "expo-local-authentication";
 

@@ -17,7 +17,6 @@ import uuid from "react-native-uuid";
 
 import {
   GetEncrypt,
-  GetModalProps,
   OnDelete,
   OnEdit,
   OnSave,
@@ -206,9 +205,7 @@ const _renderModal = (
 );
 
 const _renderEncryptResult = (encrypt: string): React.ReactNode => (
-  <View
-    style={styles.encryptContainer}
-  >
+  <View style={styles.encryptContainer}>
     <ScrollView
       showsVerticalScrollIndicator={false}
       contentContainerStyle={{

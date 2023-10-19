@@ -1,7 +1,6 @@
 import { render, waitFor, fireEvent } from "@testing-library/react-native";
 
 import TodoComponent from "./Todos.Component";
-// import getDataFromStorage from "../../Utils/CollectData/collectData";
 
 import type { Props } from "./Todos.Types";
 
@@ -9,8 +8,6 @@ beforeEach(() => {
   jest.clearAllMocks();
   jest.restoreAllMocks();
 });
-
-const mockSetState = jest.fn();
 
 jest
   .mock("@expo/vector-icons/Ionicons", () => "Ionicons")
@@ -20,10 +17,6 @@ jest
   .mock("../../Utils/CollectData/collectData", () =>
     jest.fn().mockResolvedValue({ notes: [1, 2, 3] })
   );
-// .mock("react", () => ({
-//   ...jest.requireActual("react"),
-//   useState: (initialValue) => [initialValue, mockSetState],
-// }));
 
 describe("Todo Compoennt", () => {
   const mockNotes = [
