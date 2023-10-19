@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1697738906528" clover="3.2.0">
-  <project timestamp="1697738906528" name="All files">
+<coverage generated="1697740821065" clover="3.2.0">
+  <project timestamp="1697740821066" name="All files">
     <metrics statements="143" coveredstatements="133" conditionals="38" coveredconditionals="34" methods="77" coveredmethods="67" elements="258" coveredelements="234" complexity="0" loc="143" ncloc="143" packages="8" files="12" classes="12"/>
     <package name="Assets">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -148,31 +148,31 @@
         <line num="203" count="24" type="stmt"/>
         <line num="208" count="1" type="stmt"/>
         <line num="209" count="24" type="stmt"/>
-        <line num="226" count="1" type="stmt"/>
-        <line num="227" count="12" type="stmt"/>
-        <line num="243" count="1" type="stmt"/>
-        <line num="244" count="25" type="stmt"/>
-        <line num="245" count="24" type="stmt"/>
-        <line num="246" count="24" type="stmt"/>
-        <line num="247" count="24" type="stmt"/>
+        <line num="229" count="1" type="stmt"/>
+        <line num="230" count="12" type="stmt"/>
+        <line num="246" count="1" type="stmt"/>
+        <line num="247" count="25" type="stmt"/>
+        <line num="248" count="24" type="stmt"/>
         <line num="249" count="24" type="stmt"/>
-        <line num="250" count="2" type="stmt"/>
-        <line num="251" count="2" type="stmt"/>
-        <line num="254" count="24" type="stmt"/>
-        <line num="255" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="256" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="257" count="2" type="stmt"/>
-        <line num="260" count="24" type="stmt"/>
-        <line num="261" count="1" type="stmt"/>
+        <line num="250" count="24" type="stmt"/>
+        <line num="252" count="24" type="stmt"/>
+        <line num="253" count="2" type="stmt"/>
+        <line num="254" count="2" type="stmt"/>
+        <line num="257" count="24" type="stmt"/>
+        <line num="258" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="259" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="260" count="2" type="stmt"/>
         <line num="263" count="24" type="stmt"/>
         <line num="264" count="1" type="stmt"/>
-        <line num="265" count="1" type="stmt"/>
-        <line num="268" count="24" type="stmt"/>
-        <line num="269" count="10" type="stmt"/>
-        <line num="270" count="10" type="stmt"/>
-        <line num="273" count="24" type="stmt"/>
-        <line num="274" count="10" type="stmt"/>
-        <line num="277" count="24" type="stmt"/>
+        <line num="266" count="24" type="stmt"/>
+        <line num="267" count="1" type="stmt"/>
+        <line num="268" count="1" type="stmt"/>
+        <line num="271" count="24" type="stmt"/>
+        <line num="272" count="10" type="stmt"/>
+        <line num="273" count="10" type="stmt"/>
+        <line num="276" count="24" type="stmt"/>
+        <line num="277" count="10" type="stmt"/>
+        <line num="280" count="24" type="stmt"/>
       </file>
       <file name="Todos.Styles.tsx" path="/Users/22060947/Documents/Private/App/atask/my-app/src/Containers/Todos/Todos.Styles.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
@@ -199,9 +199,9 @@
         <line num="20" count="3" type="stmt"/>
         <line num="21" count="3" type="stmt"/>
         <line num="22" count="7" type="stmt"/>
-        <line num="26" count="143" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="145" type="cond" truecount="2" falsecount="0"/>
         <line num="29" count="6" type="cond" truecount="2" falsecount="0"/>
-        <line num="32" count="136" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="113" type="cond" truecount="2" falsecount="0"/>
         <line num="35" count="3" type="stmt"/>
       </file>
     </package>
