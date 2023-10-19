@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snap test Should render with correct props 1`] = `
+<RCTSafeAreaView
+  style={
+    {
+      "backgroundColor": "#283618",
+      "display": "flex",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    onLayout={[Function]}
+    style={
+      [
+        {
+          "flex": 1,
+        },
+        {
+          "paddingBottom": 0,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "display": "flex",
+          "height": "100%",
+          "justifyContent": "center",
+          "padding": 4,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "marginHorizontal": "auto",
+          }
+        }
+      />
+      <Text
+        style={
+          {
+            "color": "white",
+            "letterSpacing": 2,
+            "marginVertical": 35,
+          }
+        }
+      >
+        Login first
+      </Text>
+      <Text
+        style={
+          {
+            "color": "white",
+            "letterSpacing": 2,
+            "marginVertical": 35,
+          }
+        }
+      >
+        Welcome to
+      </Text>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;

@@ -1,0 +1,511 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Todo Compoennt SnapTesting 1`] = `
+<RCTSafeAreaView
+  style={
+    {
+      "backgroundColor": "#283618",
+      "display": "flex",
+      "flex": 1,
+    }
+  }
+>
+  <Modal
+    animationType="none"
+    deviceHeight={null}
+    deviceWidth={null}
+    hardwareAccelerated={false}
+    hideModalContentWhileAnimating={false}
+    onBackdropPress={[Function]}
+    onModalHide={[Function]}
+    onModalWillHide={[Function]}
+    onModalWillShow={[Function]}
+    onRequestClose={[Function]}
+    panResponderThreshold={4}
+    scrollHorizontal={false}
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    statusBarTranslucent={false}
+    supportedOrientations={
+      [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+    testID="Modal"
+    transparent={true}
+    visible={false}
+  />
+  <View
+    style={
+      {
+        "alignContent": "center",
+        "alignItems": "center",
+        "height": "100%",
+        "justifyContent": "space-between",
+        "width": "100%",
+      }
+    }
+  >
+    <RCTScrollView
+      contentContainerStyle={
+        {
+          "height": 999.9999999999999,
+        }
+      }
+      data={
+        [
+          {
+            "description": "description 1",
+            "id": "001",
+            "isMarked": false,
+            "title": "title 1",
+          },
+          {
+            "description": "description 2",
+            "id": "002",
+            "isMarked": false,
+            "title": "title 2",
+          },
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      refreshControl={
+        <RefreshControlMock
+          onRefresh={[Function]}
+          refreshing={false}
+        />
+      }
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      showsVerticalScrollIndicator={false}
+      stickyHeaderIndices={[]}
+      viewabilityConfigCallbackPairs={[]}
+    >
+      <RCTRefreshControl />
+      <View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              {
+                "marginVertical": 10,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "backgroundColor": "white",
+                  "borderRadius": 8,
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginVertical": 8,
+                  "minHeight": 130,
+                  "overflow": "hidden",
+                  "padding": 16,
+                  "width": 640,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "height": "100%",
+                  }
+                }
+              >
+                <Text
+                  accessibilityLabel="Note_001"
+                  style={
+                    {
+                      "fontWeight": "700",
+                    }
+                  }
+                >
+                  title 1
+                </Text>
+                <Text
+                  style={
+                    {
+                      "marginTop": 10,
+                      "textAlign": "left",
+                    }
+                  }
+                >
+                  description 1
+                </Text>
+              </View>
+              <View
+                style={
+                  {
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <View
+                  accessibilityLabel="Note_001_Edit_Button"
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Ionicons
+                    color="gray"
+                    name="pencil-outline"
+                    size={40}
+                    style={
+                      {
+                        "margin": 4,
+                        "marginTop": 20,
+                      }
+                    }
+                  />
+                </View>
+                <View
+                  accessibilityLabel="Note_001_Delete_Button"
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Ionicons
+                    color="gray"
+                    name="trash-outline"
+                    size={40}
+                    style={
+                      {
+                        "margin": 4,
+                        "marginTop": 20,
+                      }
+                    }
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              {
+                "marginVertical": 10,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "backgroundColor": "white",
+                  "borderRadius": 8,
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginVertical": 8,
+                  "minHeight": 130,
+                  "overflow": "hidden",
+                  "padding": 16,
+                  "width": 640,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "height": "100%",
+                  }
+                }
+              >
+                <Text
+                  accessibilityLabel="Note_002"
+                  style={
+                    {
+                      "fontWeight": "700",
+                    }
+                  }
+                >
+                  title 2
+                </Text>
+                <Text
+                  style={
+                    {
+                      "marginTop": 10,
+                      "textAlign": "left",
+                    }
+                  }
+                >
+                  description 2
+                </Text>
+              </View>
+              <View
+                style={
+                  {
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <View
+                  accessibilityLabel="Note_002_Edit_Button"
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Ionicons
+                    color="gray"
+                    name="pencil-outline"
+                    size={40}
+                    style={
+                      {
+                        "margin": 4,
+                        "marginTop": 20,
+                      }
+                    }
+                  />
+                </View>
+                <View
+                  accessibilityLabel="Note_002_Delete_Button"
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Ionicons
+                    color="gray"
+                    name="trash-outline"
+                    size={40}
+                    style={
+                      {
+                        "margin": 4,
+                        "marginTop": 20,
+                      }
+                    }
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+    <View
+      style={
+        {
+          "backgroundColor": "white",
+          "height": 120.00000000000001,
+          "padding": 10,
+          "paddingHorizontal": 16,
+          "top": 0,
+          "width": "90%",
+        }
+      }
+    >
+      <RCTScrollView
+        contentContainerStyle={
+          {
+            "overflow": "scroll",
+          }
+        }
+        showsVerticalScrollIndicator={false}
+      >
+        <View>
+          <Text
+            style={
+              {
+                "fontWeight": "800",
+              }
+            }
+          >
+            Result of encrypt
+          </Text>
+          <Text />
+        </View>
+      </RCTScrollView>
+    </View>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "white",
+        "borderColor": "#283618",
+        "borderRadius": "50%",
+        "borderWidth": 1,
+        "bottom": 36,
+        "height": 99.99999999999999,
+        "justifyContent": "center",
+        "justifyItems": "center",
+        "opacity": 1,
+        "position": "absolute",
+        "right": 36,
+        "width": 99.99999999999999,
+        "zIndex": 1,
+      }
+    }
+    testID="Add_Button"
+  >
+    <Ionicons
+      color="gray"
+      name="add-circle-outline"
+      size={70}
+    />
+  </View>
+</RCTSafeAreaView>
+`;

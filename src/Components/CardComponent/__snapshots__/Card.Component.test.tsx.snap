@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardComponent Snap test Should render with correct value 1`] = `
+<View
+  style={
+    {
+      "marginVertical": 10,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "backgroundColor": "white",
+        "borderRadius": 8,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "marginVertical": 8,
+        "minHeight": 130,
+        "overflow": "hidden",
+        "padding": 16,
+        "width": 640,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "height": "100%",
+        }
+      }
+    >
+      <Text
+        accessibilityLabel="notes"
+        style={
+          {
+            "fontWeight": "700",
+          }
+        }
+      >
+        title
+      </Text>
+      <Text
+        style={
+          {
+            "marginTop": 10,
+            "textAlign": "left",
+          }
+        }
+      >
+        description
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        accessibilityLabel="notes_Edit_Button"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "opacity": 1,
+          }
+        }
+      >
+        <Ionicons
+          color="gray"
+          name="pencil-outline"
+          size={40}
+          style={
+            {
+              "margin": 4,
+              "marginTop": 20,
+            }
+          }
+        />
+      </View>
+      <View
+        accessibilityLabel="notes_Delete_Button"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "opacity": 1,
+          }
+        }
+      >
+        <Ionicons
+          color="gray"
+          name="trash-outline"
+          size={40}
+          style={
+            {
+              "margin": 4,
+              "marginTop": 20,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;
