@@ -17,6 +17,7 @@ const styles = StyleSheet.create<any>({
   },
   safeAreaWrapper: {
     flex: 1,
+    paddingTop: scaleHeight(25),
     display: "flex",
     backgroundColor: Constants.Colors.DARK_LIME,
   },
@@ -72,7 +73,7 @@ const styles = StyleSheet.create<any>({
     buttonAdd: {
       borderWidth: 1,
       borderColor: Constants.Colors.DARK_LIME,
-      borderRadius: "50%",
+      borderRadius: scaleSize(50/2),
       backgroundColor: "white",
       width: scaleSize(50),
       height: scaleSize(50),

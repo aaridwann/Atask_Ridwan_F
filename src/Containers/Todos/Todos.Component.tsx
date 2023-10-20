@@ -10,6 +10,7 @@ import {
   Keyboard,
   RefreshControl,
   ScrollView,
+  BackHandler,
 } from "react-native";
 import Ionicons from "@expo/vector-icons/Ionicons";
 import Modal from "react-native-modal";
@@ -274,6 +275,13 @@ const TodoComponent = (props: Props): React.ReactNode => {
     getEncrypt();
   }, [props.notes, isModalVisible]);
 
+  React.useEffect(() => {
+    const backHandler = BackHandler.addEventListener(
+      "hardwareBackPress",
+      () => true
+    );
+    return () => backHandler.remove();
+  }, []);
   return (
     <SafeAreaView style={styles.safeAreaWrapper}>
       {_renderModal(isModalVisible, _modalHandler, saveHandler, isEdit)}

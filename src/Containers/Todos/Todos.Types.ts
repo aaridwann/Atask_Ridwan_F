@@ -34,4 +34,5 @@ export type GetEncrypt = VoidFunction;
 export type Dispatch = (reducer: any) => void;
 export type State = {
   notes: Array<any>;
+  authentication: { isAuth: boolean };
 };

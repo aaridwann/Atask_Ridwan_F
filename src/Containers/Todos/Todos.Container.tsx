@@ -13,6 +13,7 @@ const TodoContainers = (props: Props) => <TodoComponent {...props} />;
 
 const mapStateToProps = (state: State) => ({
   ...state.notes,
+  ...state.authentication
 });
 
 const mapDispatchToProps = (dispatch: Dispatch) => ({

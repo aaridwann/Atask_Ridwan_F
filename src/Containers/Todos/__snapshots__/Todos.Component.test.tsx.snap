@@ -7,6 +7,7 @@ exports[`Todo Compoennt SnapTesting 1`] = `
       "backgroundColor": "#283618",
       "display": "flex",
       "flex": 1,
+      "paddingTop": 50,
     }
   }
 >
@@ -486,7 +487,7 @@ exports[`Todo Compoennt SnapTesting 1`] = `
         "alignItems": "center",
         "backgroundColor": "white",
         "borderColor": "#283618",
-        "borderRadius": "50%",
+        "borderRadius": 49.99999999999999,
         "borderWidth": 1,
         "bottom": 36,
         "height": 99.99999999999999,
